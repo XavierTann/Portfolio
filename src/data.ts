@@ -42,7 +42,7 @@ export const games: Game[] = [
     ],
     media: [
       {
-        source: "/images/games/reboot/Screenshot_1.png",
+        source: "/images/games/Reboot/Screenshot_1.png",
         type: MediaType.Image,
       },
       {
@@ -50,19 +50,19 @@ export const games: Game[] = [
         type: MediaType.YouTube,
       },
       {
-        source: "/images/games/reboot/Screenshot_2.png",
+        source: "/images/games/Reboot/Screenshot_2.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/reboot/Screenshot_3.png",
+        source: "/images/games/Reboot/Screenshot_3.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/reboot/Screenshot_4.png",
+        source: "/images/games/Reboot/Screenshot_4.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/reboot/Screenshot_5.png",
+        source: "/images/games/Reboot/Screenshot_5.png",
         type: MediaType.Image,
       },
     ],
