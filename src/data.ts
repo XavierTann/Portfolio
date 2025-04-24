@@ -24,45 +24,41 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "Reboot",
+    name: "Light and Seek",
     description:
-      "A 2D side-scrolling puzzle platformer where players summon illusions by rewinding time, allowing them to interact with echoes of their past actions. Features a sleek sci-fi aesthetic and collaborative development using Git.",
-    genres: ["Puzzle Platformer", "Sci-Fi"],
+      "A 2D puzzle game where players transform into their shadow to solve intricate, light-based puzzles. Developed for a game jam with a focus on level design, shadow mechanics, and a dark fantasy aesthetic.",
+    genres: ["Puzzle", "2D Platformer"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
       {
         source: LinkImageSource.Github,
-        url: "https://github.com/XavierTann/reboot",
+        url: "https://github.com/XavierTann/LightAndSeek",
       },
-      {
-        source: LinkImageSource.ItchIo,
-        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
-      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      // },
     ],
     media: [
       {
-        source: "/images/games/Reboot/Screenshot_1.png",
+        source: "/images/games/Light_And_Seek/Screenshot_1.png",
         type: MediaType.Image,
       },
       {
-        source: "https://www.youtube.com/embed/s3BjaO5Ylkc",
+        source: "https://www.youtube.com/embed/EWfPkICs1xM",
         type: MediaType.YouTube,
       },
       {
-        source: "/images/games/Reboot/Screenshot_2.png",
+        source: "/images/games/Light_And_Seek/Screenshot_2.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Reboot/Screenshot_3.png",
+        source: "/images/games/Light_And_Seek/Screenshot_3.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Reboot/Screenshot_4.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/Reboot/Screenshot_5.png",
+        source: "/images/games/Light_And_Seek/Screenshot_4.png",
         type: MediaType.Image,
       },
     ],
@@ -118,41 +114,45 @@ export const games: Game[] = [
   },
 
   {
-    name: "Light and Seek",
+    name: "Reboot",
     description:
-      "A 2D puzzle game where players transform into their shadow to solve intricate, light-based puzzles. Developed for a game jam with a focus on level design, shadow mechanics, and a dark fantasy aesthetic.",
-    genres: ["Puzzle", "2D Platformer"],
+      "A 2D side-scrolling puzzle platformer where players summon illusions by rewinding time, allowing them to interact with echoes of their past actions. Features a sleek sci-fi aesthetic and collaborative development using Git.",
+    genres: ["Puzzle Platformer", "Sci-Fi"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
       {
         source: LinkImageSource.Github,
-        url: "https://github.com/XavierTann/LightAndSeek",
+        url: "https://github.com/XavierTann/reboot",
       },
-      // {
-      //   source: LinkImageSource.ItchIo,
-      //   url: "https://YOUR_ITCH.itch.io/GAME_NAME",
-      // },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      },
     ],
     media: [
       {
-        source: "/images/games/Light_And_Seek/Screenshot_1.png",
+        source: "/images/games/Reboot/Screenshot_1.png",
         type: MediaType.Image,
       },
       {
-        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        source: "https://www.youtube.com/embed/s3BjaO5Ylkc",
         type: MediaType.YouTube,
       },
       {
-        source: "/images/games/Light_And_Seek/Screenshot_2.png",
+        source: "/images/games/Reboot/Screenshot_2.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Light_And_Seek/Screenshot_3.png",
+        source: "/images/games/Reboot/Screenshot_3.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Light_And_Seek/Screenshot_4.png",
+        source: "/images/games/Reboot/Screenshot_4.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Reboot/Screenshot_5.png",
         type: MediaType.Image,
       },
     ],
