@@ -29,7 +29,8 @@ export const games: Game[] = [
     description:
       "A 2D puzzle game where players transform into their shadow to solve intricate, light-based puzzles. Developed for a game jam with a focus on level design, shadow mechanics, and a dark fantasy aesthetic.",
     genres: ["Puzzle", "2D Platformer"],
-    platforms: [Platform.Windows],
+    platforms:
+      "Trailer Design, Scene Management, Level Design, AnimatorTrees, Art Direction",
     engine: GameEngine.Unity,
     links: [
       {
@@ -71,7 +72,7 @@ export const games: Game[] = [
     description:
       "A cooperative cooking simulation game where players must collaborate in fast-paced, chaotic kitchens to prepare and serve meals.",
     genres: ["Simulation", "Co-op", "Casual"],
-    platforms: [Platform.Windows],
+    platforms: "UI/UX Design, Unity Prefab and ScriptableObjects System",
     engine: GameEngine.Unity,
     links: [
       {
@@ -121,7 +122,8 @@ export const games: Game[] = [
     description:
       "A 2D side-scrolling puzzle platformer where players summon illusions by rewinding time, allowing them to interact with echoes of their past actions. Features a sleek sci-fi aesthetic and collaborative development using Git.",
     genres: ["Puzzle Platformer", "Sci-Fi"],
-    platforms: [Platform.Windows],
+    platforms:
+      "Github, 2D Art, Team Collaboration using Game Design Document, Playtesting & Iteration",
     engine: GameEngine.Unity,
     links: [
       {
@@ -167,7 +169,7 @@ export const games: Game[] = [
     description:
       "The Forgotten Depths, a survival game where you play as a homeless person navigating the tunnels beneath Las Vegas. Each day, you scavenge for food, water, and resources while managing your physical and mental health. Every night brings unpredictable challenges, such as hostile encounters, collapsing tunnels, or environmental hazards. On hold until I learn how to make 3d assets :(",
     genres: ["First Person", "Survival Horror"],
-    platforms: [Platform.Windows],
+    platforms: "3D Level Design, Inventory System",
     engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
@@ -205,7 +207,7 @@ export const games: Game[] = [
     description:
       "My first game! A top down RPG where players have to navigate and fight through hordes of enemies while levelling up and gaining new skills. Unfortunately I did not know how to use source control, and lost all the code. The only picture I have of the game  is this.",
     genres: ["Top Down RPG"],
-    platforms: [Platform.Windows],
+    platforms: "UI/UX Design,2D Art",
     engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
@@ -243,7 +245,8 @@ export const games: Game[] = [
     description:
       "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm. Current game I am working on.",
     genres: ["Roguelike", "Tower Defense"],
-    platforms: [Platform.Windows],
+    platforms:
+      "Pathfinding Algorithms, Procedural Generation, System Design, Balancing",
     engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },

@@ -8,15 +8,14 @@ interface GameInfoProps {
   game: GameInterface;
 }
 
-const GameInfoContainer = styled(Column)`
-`;
+const GameInfoContainer = styled(Column)``;
 
 const GameTitle = styled.h1`
   font-family: "ZenDots", sans-serif;
   font-size: 2rem;
   color: #00ced1;
   margin-top: 0;
-  
+
   @media (max-width: 768px) {
     font-size: 1.5rem;
   }
@@ -26,7 +25,16 @@ const GameDescription = styled.p`
   margin: 0;
   font-size: 1.5rem;
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+`;
+
+const SkillsContainer = styled.p`
+  margin: 10;
+  font-size: 1.5rem;
+
+  @media (max-width: 768px) {
     font-size: 1rem;
   }
 `;
@@ -60,41 +68,56 @@ const LinksContainer = styled(Row)`
 `;
 
 const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
-    return (
-        <GameInfoContainer>
-            <GameTitle>{game.name}</GameTitle>
-            <GameDescription>{game.description}</GameDescription>
+  return (
+    <GameInfoContainer>
+      <GameTitle>{game.name}</GameTitle>
+      <GameDescription>{game.description}</GameDescription>
+      <SkillsContainer>
+        {" "}
+        <strong>Skills Learnt:</strong> {game.platforms}{" "}
+      </SkillsContainer>
+      <InfoTable>
+        {/* <InfoRow>
+          <InfoKey>Skills Learnt:</InfoKey>
+          <InfoValue>{game.platforms}</InfoValue>
+        </InfoRow> */}
+        <InfoRow>
+          <InfoKey>Genres:</InfoKey>
+          <InfoValue>{game.genres.join(", ")}</InfoValue>
+        </InfoRow>
 
-            <InfoTable>
-                <InfoRow>
-                    <InfoKey>Genres:</InfoKey>
-                    <InfoValue>{game.genres.join(", ")}</InfoValue>
-                </InfoRow>
-                <InfoRow>
-                    <InfoKey>Platforms:</InfoKey>
-                    <InfoValue>{game.platforms.join(", ")}</InfoValue>
-                </InfoRow>
-                <InfoRow>
-                    <InfoKey>Engine:</InfoKey>
-                    <InfoValue>{game.engine}</InfoValue>
-                </InfoRow>
+        <InfoRow>
+          <InfoKey>Engine:</InfoKey>
+          <InfoValue>{game.engine}</InfoValue>
+        </InfoRow>
 
-                {game.source && <InfoRow>
-                    <InfoKey>Source:</InfoKey>
-                    <InfoValue >
-                        <a href={game.source.url} target="_blank" rel="noopener noreferrer">
-                            {game.source.name}
-                        </a>
-                    </InfoValue>
-                </InfoRow>}
-            </InfoTable>
-            <LinksContainer>
-                {game.links.map((link, index) => (
-                    <LogoButton key={index} size={35} source={link.source} linkTo={link.url} />
-                ))}
-            </LinksContainer>
-        </GameInfoContainer>
-    );
+        {game.source && (
+          <InfoRow>
+            <InfoKey>Source:</InfoKey>
+            <InfoValue>
+              <a
+                href={game.source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {game.source.name}
+              </a>
+            </InfoValue>
+          </InfoRow>
+        )}
+      </InfoTable>
+      <LinksContainer>
+        {game.links.map((link, index) => (
+          <LogoButton
+            key={index}
+            size={35}
+            source={link.source}
+            linkTo={link.url}
+          />
+        ))}
+      </LinksContainer>
+    </GameInfoContainer>
+  );
 };
 
 export default GameInfo;

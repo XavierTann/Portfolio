@@ -47,6 +47,6 @@ export interface Game {
   source?: { name: string; url: string };
   links: { source: LinkImageSource; url: string }[];
   media: MediaItem[];
-  platforms: Platform[];
+  platforms: string;
   engine: GameEngine;
 }
