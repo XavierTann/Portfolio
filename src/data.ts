@@ -161,7 +161,7 @@ export const games: Game[] = [
   {
     name: "Unforgotten Depths",
     description:
-      "  The Forgotten Depths, a survival game where you play as a homeless person navigating the tunnels beneath Las Vegas. Each day, you scavenge for food, water, and resources while managing your physical and mental health. Every night brings unpredictable challenges, such as hostile encounters, collapsing tunnels, or environmental hazards.",
+      "The Forgotten Depths, a survival game where you play as a homeless person navigating the tunnels beneath Las Vegas. Each day, you scavenge for food, water, and resources while managing your physical and mental health. Every night brings unpredictable challenges, such as hostile encounters, collapsing tunnels, or environmental hazards. On hold until I learn how to make 3d assets :(",
     genres: ["First Person", "Survival Horror"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
