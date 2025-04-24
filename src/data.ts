@@ -159,6 +159,44 @@ export const games: Game[] = [
   },
 
   {
+    name: "Unforgotten Depths",
+    description:
+      "  The Forgotten Depths, a survival game where you play as a homeless person navigating the tunnels beneath Las Vegas. Each day, you scavenge for food, water, and resources while managing your physical and mental health. Every night brings unpredictable challenges, such as hostile encounters, collapsing tunnels, or environmental hazards.",
+    genres: ["First Person", "Survival Horror"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      },
+    ],
+    media: [
+      {
+        source: "/images/games/Unforgotten_Depths/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/Unforgotten_Depths/Screenshot_2.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Unforgotten_Depths/Screenshot_3.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Unforgotten_Depths/Screenshot_4.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+
+  {
     name: "Dune Survivors",
     description:
       "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm.",
@@ -175,6 +213,44 @@ export const games: Game[] = [
     media: [
       {
         source: "/images/games/GAME_NAME/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_2.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_3.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_4.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+
+  {
+    name: "Cosy Quest",
+    description:
+      "My first game! A top down RPG where players have to navigate and fight through hordes of enemies while levelling up and gaining new skills. Unfortunately I did not know how to use source control, and lost all the code. The only picture I have of the game  is this.",
+    genres: ["Top Down RPG"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      },
+    ],
+    media: [
+      {
+        source: "/images/games/Cosy_Quest/Screenshot_1.png",
         type: MediaType.Image,
       },
       {
