@@ -6,3 +6,4 @@ build/
 
 # Environment files
 .env
+build/ # just in case it’s not there
