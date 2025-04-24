@@ -12,7 +12,8 @@ export const PersonalInfo: AboutMeData = {
   role: "Unity Game Developer",
   introduction:
     "Undergraduate currently studying Computer Science at Singapore University Of Technology And Design",
-  description: "Love playing video games and love coding. Hence Game Dev :D ",
+  description:
+    "I’m super passionate about video games, both playing and making them. I love coding, and I’m always diving into new game tech and design ideas that can really level up how I build games. Right now, I’m on the lookout for opportunities at game dev studios where I can grow, learn, and help create awesome experiences. ",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
