@@ -42,6 +42,8 @@ export interface AboutMeData {
 
 export interface Game {
   name: string;
+  color?: string;
+  font?: string;
   description: string;
   genres: string[];
   source?: { name: string; url: string };

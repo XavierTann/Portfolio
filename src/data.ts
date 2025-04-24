@@ -26,6 +26,7 @@ export const PersonalInfo: AboutMeData = {
 export const games: Game[] = [
   {
     name: "Light and Seek",
+    color: "	#339999",
     description:
       "A 2D puzzle game where players transform into their shadow to solve intricate, light-based puzzles. Developed for a game jam with a focus on level design, shadow mechanics, and a dark fantasy aesthetic.",
     genres: ["Puzzle", "2D Platformer"],
@@ -69,6 +70,7 @@ export const games: Game[] = [
 
   {
     name: "KitchenChaos",
+    color: "#FFA500",
     description:
       "A cooperative cooking simulation game where players must collaborate in fast-paced, chaotic kitchens to prepare and serve meals.",
     genres: ["Simulation", "Co-op", "Casual"],
@@ -119,6 +121,7 @@ export const games: Game[] = [
 
   {
     name: "Reboot",
+    color: "#5D728A",
     description:
       "A 2D side-scrolling puzzle platformer where players summon illusions by rewinding time, allowing them to interact with echoes of their past actions. Features a sleek sci-fi aesthetic and collaborative development using Git.",
     genres: ["Puzzle Platformer", "Sci-Fi"],
@@ -165,9 +168,9 @@ export const games: Game[] = [
   },
 
   {
-    name: "Unforgotten Depths",
+    name: "Forgotten Depths",
     description:
-      "The Forgotten Depths, a survival game where you play as a homeless person navigating the tunnels beneath Las Vegas. Each day, you scavenge for food, water, and resources while managing your physical and mental health. Every night brings unpredictable challenges, such as hostile encounters, collapsing tunnels, or environmental hazards. On hold until I learn how to make 3d assets :(",
+      "A survival game set in the tunnels beneath Las Vegas, where you play as a homeless person scavenging for resources and managing health. Face nightly threats like hostile encounters, cave-ins, and harsh conditions. ",
     genres: ["First Person", "Survival Horror"],
     platforms: "3D Level Design, Inventory System",
     engine: GameEngine.Unity,

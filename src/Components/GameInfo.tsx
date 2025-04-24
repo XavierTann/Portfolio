@@ -10,10 +10,21 @@ interface GameInfoProps {
 
 const GameInfoContainer = styled(Column)``;
 
-const GameTitle = styled.h1`
-  font-family: "ZenDots", sans-serif;
+// const GameTitle = styled.h1`
+//   font-family: "ZenDots", sans-serif;
+//   font-size: 2rem;
+//   color: #00ced1;
+//   margin-top: 0;
+
+//   @media (max-width: 768px) {
+//     font-size: 1.5rem;
+//   }
+// `;
+
+const GameTitle = styled.h1<{ $color?: string; $font?: string }>`
+  font-family: ${({ $font }) => $font || '"ZenDots", sans-serif'};
   font-size: 2rem;
-  color: #00ced1;
+  color: ${({ $color }) => $color || "#00ced1"};
   margin-top: 0;
 
   @media (max-width: 768px) {
@@ -70,7 +81,10 @@ const LinksContainer = styled(Row)`
 const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
   return (
     <GameInfoContainer>
-      <GameTitle>{game.name}</GameTitle>
+      {/* <GameTitle>{game.name}</GameTitle> */}
+      <GameTitle $color={game.color} $font={game.font}>
+        {game.name}
+      </GameTitle>
       <GameDescription>{game.description}</GameDescription>
       <SkillsContainer>
         {" "}
