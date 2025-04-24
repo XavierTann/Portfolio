@@ -4,7 +4,6 @@ import BigMedia from "./BigMedia";
 import { MediaItem, MediaType } from "../types";
 import { Column, Row } from "../Styles/StyledComponents";
 
-
 export const GameMediaContainer = styled(Column)`
   align-items: end;
 
@@ -13,7 +12,7 @@ export const GameMediaContainer = styled(Column)`
   }
 `;
 
-export const LargeMediaWrapper = styled(Row) <{ $isFading: boolean }>`
+export const LargeMediaWrapper = styled(Row)<{ $isFading: boolean }>`
   width: 100%;
   height: 320px;
   justify-content: center;
@@ -37,7 +36,7 @@ export const Thumbnails = styled.div`
   padding: 12px;
 
   @media (max-width: 1100px) {
-    max-width: 10%;
+    max-width: 60%;
   }
 
   @media (max-width: 768px) {
@@ -61,7 +60,8 @@ export const Thumbnail = styled.img<{ $isSelected: boolean }>`
   object-fit: cover;
   cursor: pointer;
   border-radius: 5px;
-  border: 3px solid ${({ $isSelected }) => ($isSelected ? "#4e9f3d" : "transparent")};
+  border: 3px solid
+    ${({ $isSelected }) => ($isSelected ? "#4e9f3d" : "transparent")};
   transform: ${({ $isSelected }) => ($isSelected ? "scale(1.1)" : "none")};
   transition: transform 0.1s ease-in-out;
 `;
@@ -122,7 +122,9 @@ type GameMediaProps = {
 };
 
 const getYouTubeThumbnail = (url: string) => {
-  const match = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([^&?/]+)/);
+  const match = url.match(
+    /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([^&?/]+)/
+  );
   return match && match[1]
     ? `https://img.youtube.com/vi/${match[1]}/mqdefault.jpg`
     : "/fallback-thumbnail.jpg";
@@ -142,21 +144,23 @@ const GameMedia: React.FC<GameMediaProps> = ({ media }) => {
         setCurrentIndex(newIndex);
         setIsFading(false);
         const thumbnail = thumbnailRefs.current[newIndex];
-        thumbnail?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-
+        thumbnail?.scrollIntoView({ behavior: "smooth", block: "nearest" });
       }, 150);
     }
   };
 
   const handleThumbnailClick = (index: number) => updateMediaIndex(index);
   const nextMedia = () => updateMediaIndex((currentIndex + 1) % media.length);
-  const prevMedia = () => updateMediaIndex((currentIndex - 1 + media.length) % media.length);
-
+  const prevMedia = () =>
+    updateMediaIndex((currentIndex - 1 + media.length) % media.length);
 
   return (
     <GameMediaContainer>
       <LargeMediaWrapper $isFading={isFading}>
-        <BigMedia source={media[currentIndex].source} type={media[currentIndex].type} />
+        <BigMedia
+          source={media[currentIndex].source}
+          type={media[currentIndex].type}
+        />
       </LargeMediaWrapper>
 
       <ThumbnailContainer>
@@ -164,7 +168,9 @@ const GameMedia: React.FC<GameMediaProps> = ({ media }) => {
         <Thumbnails ref={thumbnailsContainerRef}>
           {media.map((item, index) => {
             const isYouTubeVideo = item.type === MediaType.YouTube;
-            const thumbnailSrc = isYouTubeVideo ? getYouTubeThumbnail(item.source) : `${process.env.PUBLIC_URL}${item.source}`;
+            const thumbnailSrc = isYouTubeVideo
+              ? getYouTubeThumbnail(item.source)
+              : `${process.env.PUBLIC_URL}${item.source}`;
 
             return (
               <ThumbnailWrapper key={index}>
@@ -175,11 +181,12 @@ const GameMedia: React.FC<GameMediaProps> = ({ media }) => {
                   $isSelected={index === currentIndex}
                   onClick={() => handleThumbnailClick(index)}
                 />
-                {isYouTubeVideo && <PlayIcon onClick={() => handleThumbnailClick(index)} />}
+                {isYouTubeVideo && (
+                  <PlayIcon onClick={() => handleThumbnailClick(index)} />
+                )}
               </ThumbnailWrapper>
             );
           })}
-
         </Thumbnails>
         <Arrow onClick={nextMedia}>&nbsp;▶</Arrow>
       </ThumbnailContainer>
