@@ -57,10 +57,10 @@ export const games: Game[] = [
         source: "/images/games/Light_And_Seek/Screenshot_3.png",
         type: MediaType.Image,
       },
-      {
-        source: "/images/games/Light_And_Seek/Screenshot_4.png",
-        type: MediaType.Image,
-      },
+      // {
+      //   source: "/images/games/Light_And_Seek/Screenshot_4.png",
+      //   type: MediaType.Image,
+      // },
     ],
   },
 
@@ -177,60 +177,22 @@ export const games: Game[] = [
         source: "/images/games/Unforgotten_Depths/Screenshot_1.png",
         type: MediaType.Image,
       },
-      {
-        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        type: MediaType.YouTube,
-      },
+      // {
+      //   source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      //   type: MediaType.YouTube,
+      // },
       {
         source: "/images/games/Unforgotten_Depths/Screenshot_2.png",
         type: MediaType.Image,
       },
-      {
-        source: "/images/games/Unforgotten_Depths/Screenshot_3.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/Unforgotten_Depths/Screenshot_4.png",
-        type: MediaType.Image,
-      },
-    ],
-  },
-
-  {
-    name: "Dune Survivors",
-    description:
-      "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm.",
-    genres: ["Roguelike", "Tower Defense"],
-    platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
-    links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      {
-        source: LinkImageSource.ItchIo,
-        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
-      },
-    ],
-    media: [
-      {
-        source: "/images/games/GAME_NAME/Screenshot_1.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        type: MediaType.YouTube,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_2.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_3.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_4.png",
-        type: MediaType.Image,
-      },
+      // {
+      //   source: "/images/games/Unforgotten_Depths/Screenshot_3.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/Unforgotten_Depths/Screenshot_4.png",
+      //   type: MediaType.Image,
+      // },
     ],
   },
 
@@ -253,22 +215,60 @@ export const games: Game[] = [
         source: "/images/games/Cosy_Quest/Screenshot_1.png",
         type: MediaType.Image,
       },
+      // {
+      //   source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      //   type: MediaType.YouTube,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_2.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_3.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_4.png",
+      //   type: MediaType.Image,
+      // },
+    ],
+  },
+
+  {
+    name: "Dune Survivors",
+    description:
+      "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm. Current game I am working on.",
+    genres: ["Roguelike", "Tower Defense"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
       {
-        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        type: MediaType.YouTube,
+        source: LinkImageSource.ItchIo,
+        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
       },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_2.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_3.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_4.png",
-        type: MediaType.Image,
-      },
+    ],
+    media: [
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_1.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      //   type: MediaType.YouTube,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_2.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_3.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_4.png",
+      //   type: MediaType.Image,
+      // },
     ],
   },
 ];
