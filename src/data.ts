@@ -36,20 +36,21 @@ export const games: Game[] = [
         source: LinkImageSource.Github,
         url: "https://github.com/XavierTann/LightAndSeek",
       },
-      // {
-      //   source: LinkImageSource.ItchIo,
-      //   url: "https://YOUR_ITCH.itch.io/GAME_NAME",
-      // },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      },
     ],
     media: [
-      {
-        source: "/images/games/Light_And_Seek/Screenshot_1.png",
-        type: MediaType.Image,
-      },
       {
         source: "https://www.youtube.com/embed/EWfPkICs1xM",
         type: MediaType.YouTube,
       },
+      {
+        source: "/images/games/Light_And_Seek/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+
       {
         source: "/images/games/Light_And_Seek/Screenshot_2.png",
         type: MediaType.Image,
@@ -58,10 +59,10 @@ export const games: Game[] = [
         source: "/images/games/Light_And_Seek/Screenshot_3.png",
         type: MediaType.Image,
       },
-      // {
-      //   source: "/images/games/Light_And_Seek/Screenshot_4.png",
-      //   type: MediaType.Image,
-      // },
+      {
+        source: "/images/games/Light_And_Seek/Screenshot_4.png",
+        type: MediaType.Image,
+      },
     ],
   },
 
@@ -84,13 +85,14 @@ export const games: Game[] = [
     ],
     media: [
       {
-        source: "/images/games/Kitchen_Chaos/Screenshot_1.png",
-        type: MediaType.Image,
-      },
-      {
         source: "https://www.youtube.com/embed/fYMbBh9W9_s",
         type: MediaType.YouTube,
       },
+      {
+        source: "/images/games/Kitchen_Chaos/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+
       {
         source: "/images/games/Kitchen_Chaos/Screenshot_2.png",
         type: MediaType.Image,
@@ -133,13 +135,14 @@ export const games: Game[] = [
     ],
     media: [
       {
-        source: "/images/games/Reboot/Screenshot_1.png",
-        type: MediaType.Image,
-      },
-      {
         source: "https://www.youtube.com/embed/s3BjaO5Ylkc",
         type: MediaType.YouTube,
       },
+      {
+        source: "/images/games/Reboot/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+
       {
         source: "/images/games/Reboot/Screenshot_2.png",
         type: MediaType.Image,
@@ -186,14 +189,14 @@ export const games: Game[] = [
         source: "/images/games/Unforgotten_Depths/Screenshot_2.png",
         type: MediaType.Image,
       },
-      // {
-      //   source: "/images/games/Unforgotten_Depths/Screenshot_3.png",
-      //   type: MediaType.Image,
-      // },
-      // {
-      //   source: "/images/games/Unforgotten_Depths/Screenshot_4.png",
-      //   type: MediaType.Image,
-      // },
+      {
+        source: "/images/games/Unforgotten_Depths/Screenshot_3.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Unforgotten_Depths/Screenshot_4.png",
+        type: MediaType.Image,
+      },
     ],
   },
 
@@ -216,22 +219,22 @@ export const games: Game[] = [
         source: "/images/games/Cosy_Quest/Screenshot_1.png",
         type: MediaType.Image,
       },
-      // {
-      //   source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      //   type: MediaType.YouTube,
-      // },
-      // {
-      //   source: "/images/games/GAME_NAME/Screenshot_2.png",
-      //   type: MediaType.Image,
-      // },
-      // {
-      //   source: "/images/games/GAME_NAME/Screenshot_3.png",
-      //   type: MediaType.Image,
-      // },
-      // {
-      //   source: "/images/games/GAME_NAME/Screenshot_4.png",
-      //   type: MediaType.Image,
-      // },
+      {
+        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_2.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_3.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_4.png",
+        type: MediaType.Image,
+      },
     ],
   },
 
@@ -250,26 +253,26 @@ export const games: Game[] = [
       },
     ],
     media: [
-      // {
-      //   source: "/images/games/GAME_NAME/Screenshot_1.png",
-      //   type: MediaType.Image,
-      // },
-      // {
-      //   source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      //   type: MediaType.YouTube,
-      // },
-      // {
-      //   source: "/images/games/GAME_NAME/Screenshot_2.png",
-      //   type: MediaType.Image,
-      // },
-      // {
-      //   source: "/images/games/GAME_NAME/Screenshot_3.png",
-      //   type: MediaType.Image,
-      // },
-      // {
-      //   source: "/images/games/GAME_NAME/Screenshot_4.png",
-      //   type: MediaType.Image,
-      // },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_2.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_3.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/GAME_NAME/Screenshot_4.png",
+        type: MediaType.Image,
+      },
     ],
   },
 ];
