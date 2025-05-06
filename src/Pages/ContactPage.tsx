@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import { Column } from '../Styles/StyledComponents';
+import React, { useState } from "react";
+import styled from "styled-components";
+import { Column } from "../Styles/StyledComponents";
 
 const CenterContainer = styled(Column)`
   align-items: center;
@@ -14,12 +14,12 @@ const CenterContainer = styled(Column)`
 const ContactContainer = styled(Column)`
   width: 30vw;
   padding: 30px 60px;
-    align-items: center;
+  align-items: center;
 
   background-color: #121212;
   border-radius: 10px;
   color: white;
-  
+
   @media (max-width: 768px) {
     width: 70vw;
     padding: 10px 30px;
@@ -27,7 +27,16 @@ const ContactContainer = styled(Column)`
 `;
 const Title = styled.h2`
   margin: 30px;
-  
+
+  @media (max-width: 768px) {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+`;
+
+const SecondTitle = styled.h5`
+  margin: 30px;
+
   @media (max-width: 768px) {
     font-size: 1em;
     margin-bottom: 15px;
@@ -64,20 +73,22 @@ const Button = styled.button`
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  
+
   &:hover {
     background-color: #1da851;
   }
 `;
 
 const ContactMe: React.FC = () => {
-  const [name, setName] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = () => {
     const formattedMessage = `Hey my name is ${name}\n${message}`;
-    const url = `https://wa.me/${process.env.REACT_APP_WA_NUMBER}?text=${encodeURIComponent(formattedMessage)}`;
-    window.open(url, '_blank');
+    const url = `https://wa.me/${
+      process.env.REACT_APP_WA_NUMBER
+    }?text=${encodeURIComponent(formattedMessage)}`;
+    window.open(url, "_blank");
   };
 
   return (
@@ -96,6 +107,14 @@ const ContactMe: React.FC = () => {
           onChange={(e) => setMessage(e.target.value)}
         />
         <Button onClick={handleSubmit}>Send via WhatsApp</Button>
+
+        <SecondTitle>
+          Or you can drop me an email at{" "}
+          <a href="mailto:xavier.internships@gmail.com">
+            xavier.internships@gmail.com
+          </a>
+          !
+        </SecondTitle>
       </ContactContainer>
     </CenterContainer>
   );

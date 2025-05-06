@@ -87,7 +87,7 @@ export const games: Game[] = [
       },
       {
         source: LinkImageSource.ItchIo,
-        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+        url: "https://xaviertann.itch.io/kitchenchaos",
       },
     ],
     media: [
@@ -139,7 +139,7 @@ export const games: Game[] = [
       },
       {
         source: LinkImageSource.ItchIo,
-        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+        url: "https://xaviertann.itch.io/reboot",
       },
     ],
     media: [
