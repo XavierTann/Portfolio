@@ -40,10 +40,14 @@ export const games: Game[] = [
       },
       {
         source: LinkImageSource.ItchIo,
-        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+        url: "https://bigbull007.itch.io/light-n-seek",
       },
     ],
     media: [
+      {
+        source: "/images/games/Light_And_Seek/graphic.png",
+        type: MediaType.Image,
+      },
       {
         source: "https://www.youtube.com/embed/EWfPkICs1xM",
         type: MediaType.YouTube,
@@ -62,7 +66,7 @@ export const games: Game[] = [
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Light_And_Seek/Screenshot_4.png",
+        source: "/images/games/Light_And_Seek/playtest.png",
         type: MediaType.Image,
       },
     ],
