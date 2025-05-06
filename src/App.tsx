@@ -6,7 +6,7 @@ import ContactPage from "./Pages/ContactPage";
 import SelfSummary from "./Components/SelfSummary";
 import AboutMe from "./Pages/AboutMe";
 import { Column } from "./Styles/StyledComponents";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 
 const AppContainer = styled(Column)`
   min-height: 90vh;
@@ -45,14 +45,16 @@ const NavbarLink = styled(Link)`
   }
 
   @media (max-width: 768px) {
-      font-size: 1rem;
-      margin-bottom: 0;
+    font-size: 1rem;
+    margin-bottom: 0;
   }
-  `;
+`;
 
 const App: React.FC = () => {
   window.addEventListener("scroll", function () {
-    document.body.style.backgroundPosition = `${window.scrollY * 0.05}px ${window.scrollY * 0.8}px`;
+    document.body.style.backgroundPosition = `${window.scrollY * 0.05}px ${
+      window.scrollY * 0.8
+    }px`;
   });
 
   return (
@@ -72,7 +74,7 @@ const App: React.FC = () => {
           <Route path="/about-me" element={<AboutMe />} />
         </Routes>
       </AppContainer>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 };
