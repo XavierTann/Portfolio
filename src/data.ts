@@ -124,6 +124,44 @@ export const games: Game[] = [
   },
 
   {
+    name: "Techmania (Arcade Edition)",
+    color: "#FF69B4",
+    description:
+      "An arcade-style remake of the open-source rhythm game Techmania. Streamlined the UI for quick access, removing extra pages and taking players straight to gameplay with one button. Integrated MQTT in Unity to connect with an IoT controller, and worked with Lua and XML for customization and scripting.",
+    genres: ["Rhythm", "Arcade", "Open Source"],
+    platforms: "Unity, MQTT, Lua, XML, Unity Visual Trees",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Github,
+        url: "https://github.com/YOUR_USERNAME/TechmaniaArcade", // Replace with actual GitHub link
+      },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://yourusername.itch.io/techmania-arcade", // Replace with actual Itch.io link
+      },
+    ],
+    media: [
+      {
+        source: "https://www.youtube.com/embed/YOUR_VIDEO_ID", // Replace with your video demo
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/Techmania/Screenshot1.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Techmania/Screenshot2.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Techmania/Screenshot3.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+
+  {
     name: "Reboot",
     color: "#5D728A",
     description:
@@ -196,11 +234,11 @@ export const games: Game[] = [
         type: MediaType.YouTube,
       },
       {
-        source: "/images/games/Arcade_Environment/Screenshot_1.png",
+        source: "/images/games/Arcade_Environment/Screenshot1.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Arcade_Environment/Screenshot_2.png",
+        source: "/images/games/Arcade_Environment/Screenshot2.png",
         type: MediaType.Image,
       },
     ],
