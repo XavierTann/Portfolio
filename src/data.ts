@@ -172,6 +172,41 @@ export const games: Game[] = [
   },
 
   {
+    name: "NeoArcade VR",
+    color: "#00CED1",
+    description:
+      "A VR arcade prototype built for VirtuLabs to showcase an immersive, futuristic entertainment space in Japantown, SF. Features include dynamic cherry blossom walls, multiplayer console stations, a touchscreen photo booth, and vending machines. Developed with Unity HDRP, it explores lighting workflows, 3D rigging and animation, and AI-generated assets.",
+    genres: ["VR", "Simulation", "Futuristic"],
+    platforms:
+      "3D Model Rigging and Animation, Lighting and Baking, Interactive Environment Design, AI Generation for 3D Models and Materials",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Github,
+        url: "https://github.com/YOUR_USERNAME/NeoArcadeVR", // Replace with actual GitHub if any
+      },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://yourusername.itch.io/neoarcadevr", // Replace with actual Itch.io if any
+      },
+    ],
+    media: [
+      {
+        source: "https://www.youtube.com/embed/YOUR_VIDEO_ID_1", // Replace with your video embed links
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/Arcade_Environment/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Arcade_Environment/Screenshot_2.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+
+  {
     name: "Forgotten Depths",
     description:
       "A survival game set in the tunnels beneath Las Vegas, where you play as a homeless person scavenging for resources and managing health. Face nightly threats like hostile encounters, cave-ins, and harsh conditions. ",
