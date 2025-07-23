@@ -143,7 +143,7 @@ export const games: Game[] = [
     ],
     media: [
       {
-        source: "https://www.youtube.com/embed/YOUR_VIDEO_ID", // Replace with your video demo
+        source: "https://www.youtube.com/embed/ziLGRDt2T0E", // Replace with your video demo
         type: MediaType.YouTube,
       },
       {
@@ -230,7 +230,7 @@ export const games: Game[] = [
     ],
     media: [
       {
-        source: "https://www.youtube.com/embed/YOUR_VIDEO_ID_1", // Replace with your video embed links
+        source: "https://www.youtube.com/embed/iduUDik7mbY", // Replace with your video embed links
         type: MediaType.YouTube,
       },
       {
