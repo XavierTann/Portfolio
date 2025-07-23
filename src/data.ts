@@ -330,7 +330,7 @@ export const games: Game[] = [
       "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm. Current game I am working on.",
     genres: ["Roguelike", "Tower Defense"],
     platforms:
-      "Pathfinding Algorithms, Procedural Generation, System Design, Balancing",
+      "Pathfinding Algorithms, Procedural Generation, System Design, Balancing, Isometric Tilemaps",
     engine: GameEngine.Unity,
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
@@ -340,26 +340,26 @@ export const games: Game[] = [
       },
     ],
     media: [
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_1.png",
+      //   type: MediaType.Image,
+      // },
       {
-        source: "/images/games/GAME_NAME/Screenshot_1.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        source: "https://www.youtube.com/embed/jXutWpTrkJ8",
         type: MediaType.YouTube,
       },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_2.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_3.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_4.png",
-        type: MediaType.Image,
-      },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_2.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_3.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_4.png",
+      //   type: MediaType.Image,
+      // },
     ],
   },
 ];
