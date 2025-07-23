@@ -147,15 +147,19 @@ export const games: Game[] = [
         type: MediaType.YouTube,
       },
       {
-        source: "/images/games/Techmania/Screenshot1.png",
+        source: "/images/games/Techmania/Screenshot_1.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Techmania/Screenshot2.png",
+        source: "/images/games/Techmania/Screenshot_2.png",
         type: MediaType.Image,
       },
       {
-        source: "/images/games/Techmania/Screenshot3.png",
+        source: "/images/games/Techmania/Screenshot_3.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Techmania/Screenshot_4.png",
         type: MediaType.Image,
       },
     ],
