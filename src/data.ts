@@ -121,41 +121,6 @@ export const games: Game[] = [
   },
 
   {
-    name: "NeoArcade VR",
-    color: "#00CED1",
-    description:
-      "A VR arcade prototype built for VirtuLabs to showcase an immersive, futuristic entertainment space in Japantown, SF. Features include dynamic cherry blossom walls, multiplayer console stations, a touchscreen photo booth, and vending machines. Developed with Unity HDRP, it explores lighting workflows, 3D rigging and animation, and AI-generated assets.",
-    genres: ["VR", "Simulation", "Futuristic"],
-    platforms:
-      "Unity Real Time and Baked Lighting, 3D Environment design, AI asset creation, 3D Animation",
-    engine: GameEngine.Unity,
-    links: [
-      {
-        source: LinkImageSource.Github,
-        url: "https://github.com/XavierTann/Futuristic-Arcade", // Replace with actual GitHub if any
-      },
-      // {
-      //   source: LinkImageSource.ItchIo,
-      //   url: "https://yourusername.itch.io/neoarcadevr", // Replace with actual Itch.io if any
-      // },
-    ],
-    media: [
-      {
-        source: "https://www.youtube.com/embed/iduUDik7mbY", // Replace with your video embed links
-        type: MediaType.YouTube,
-      },
-      {
-        source: "/images/games/Arcade_Environment/Screenshot1.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/Arcade_Environment/Screenshot2.png",
-        type: MediaType.Image,
-      },
-    ],
-  },
-
-  {
     name: "KitchenChaos",
     color: "#FFA500",
     description:
@@ -250,6 +215,83 @@ export const games: Game[] = [
   },
 
   {
+    name: "NeoArcade VR",
+    color: "#00CED1",
+    description:
+      "A VR arcade prototype built for VirtuLabs to showcase an immersive, futuristic entertainment space in Japantown, SF. Features include dynamic cherry blossom walls, multiplayer console stations, a touchscreen photo booth, and vending machines. Developed with Unity HDRP, it explores lighting workflows, 3D rigging and animation, and AI-generated assets.",
+    genres: ["VR", "Simulation", "Futuristic"],
+    platforms:
+      "Unity Real Time and Baked Lighting, 3D Environment design, AI asset creation, 3D Animation",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Github,
+        url: "https://github.com/XavierTann/Futuristic-Arcade", // Replace with actual GitHub if any
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://yourusername.itch.io/neoarcadevr", // Replace with actual Itch.io if any
+      // },
+    ],
+    media: [
+      {
+        source: "https://www.youtube.com/embed/iduUDik7mbY", // Replace with your video embed links
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/Arcade_Environment/Screenshot1.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Arcade_Environment/Screenshot2.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+
+  {
+    name: "Dune Survivors",
+    description:
+      "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm. Current game I am working on.",
+    genres: ["Roguelike", "Tower Defense"],
+    platforms:
+      "Pathfinding Algorithms, Procedural Generation, System Design, Balancing, Isometric Tilemaps",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Github,
+        url: "https://github.com/XavierTann/Dune-Survivors",
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      // },
+    ],
+    media: [
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_1.png",
+      //   type: MediaType.Image,
+      // },
+      {
+        source: "https://www.youtube.com/embed/jXutWpTrkJ8",
+        type: MediaType.YouTube,
+      },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_2.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_3.png",
+      //   type: MediaType.Image,
+      // },
+      // {
+      //   source: "/images/games/GAME_NAME/Screenshot_4.png",
+      //   type: MediaType.Image,
+      // },
+    ],
+  },
+
+  {
     name: "Forgotten Depths",
     description:
       "A survival game set in the tunnels beneath Las Vegas, where you play as a homeless person scavenging for resources and managing health. Face nightly threats like hostile encounters, cave-ins, and harsh conditions. ",
@@ -299,60 +341,24 @@ export const games: Game[] = [
     platforms: "UI/UX Design, 2D Art, Unity Basics",
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
       {
-        source: LinkImageSource.ItchIo,
-        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+        source: LinkImageSource.Github,
+        url: "https://github.com/XavierTann/Cozy-Quest",
       },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      // },
     ],
     media: [
       {
         source: "/images/games/Cosy_Quest/Screenshot_1.png",
         type: MediaType.Image,
       },
-      {
-        source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        type: MediaType.YouTube,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_2.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_3.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/GAME_NAME/Screenshot_4.png",
-        type: MediaType.Image,
-      },
-    ],
-  },
-
-  {
-    name: "Dune Survivors",
-    description:
-      "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm. Current game I am working on.",
-    genres: ["Roguelike", "Tower Defense"],
-    platforms:
-      "Pathfinding Algorithms, Procedural Generation, System Design, Balancing, Isometric Tilemaps",
-    engine: GameEngine.Unity,
-    links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      {
-        source: LinkImageSource.ItchIo,
-        url: "https://YOUR_ITCH.itch.io/GAME_NAME",
-      },
-    ],
-    media: [
       // {
-      //   source: "/images/games/GAME_NAME/Screenshot_1.png",
-      //   type: MediaType.Image,
+      //   source: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      //   type: MediaType.YouTube,
       // },
-      {
-        source: "https://www.youtube.com/embed/jXutWpTrkJ8",
-        type: MediaType.YouTube,
-      },
       // {
       //   source: "/images/games/GAME_NAME/Screenshot_2.png",
       //   type: MediaType.Image,
