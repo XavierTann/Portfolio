@@ -44,7 +44,7 @@ export const games: Game[] = [
     ],
     media: [
       {
-        source: "/images/games/PersonaTheory/PersonaTheory_Screenshot",
+        source: "/images/games/PersonaTheory/PersonaTheory_Screenshot.jpg",
         type: MediaType.Image,
       },
     ],
