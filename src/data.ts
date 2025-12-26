@@ -25,6 +25,31 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
+    name: "Unity Developer Internship at Persona Theory Games",
+    color: "	#339999",
+    description: "",
+    genres: ["Roguelite"],
+    platforms:
+      "Enemy AI design, object detection and avoidance algorithms, and development of debugging tools for game designers",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Github,
+        url: "https://github.com/XavierTann/LightAndSeek",
+      },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://xaviertann.itch.io/light-and-seek",
+      },
+    ],
+    media: [
+      {
+        source: "/images/games/PersonaTheory/PersonaTheory_Screenshot",
+        type: MediaType.Image,
+      },
+    ],
+  },
+  {
     name: "Light and Seek",
     color: "	#339999",
     description:
@@ -215,6 +240,53 @@ export const games: Game[] = [
   },
 
   {
+    name: "Forgotten Depths",
+    description:
+      "A survival game set in the tunnels beneath Las Vegas, where you play as a homeless person scavenging for resources and managing health. Face nightly threats like hostile encounters, cave-ins, and harsh conditions. ",
+    genres: ["First Person", "Survival Horror"],
+    platforms:
+      "Inventory UI Design, Different Inventory Systems like drag and drop and click only, implemented features like Item Stacking and Sorting",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Github,
+        url: "https://github.com/XavierTann/ForgottenDepths",
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://YOUR_ITCH.itch.io/GAME_NAME",
+      // },
+    ],
+    media: [
+      {
+        source: "/images/games/ForgottenDepths/Screenshot_1.png",
+        type: MediaType.Image,
+      },
+
+      {
+        source: "/images/games/ForgottenDepths/Screenshot_2.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "https://www.youtube.com/embed/VZdEbYeVM-I",
+        type: MediaType.YouTube,
+      },
+      {
+        source: "/images/games/ForgottenDepths/Screenshot_3.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/ForgottenDepths/Screenshot_4.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/ForgottenDepths/Screenshot_5.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+
+  {
     name: "NeoArcade VR",
     color: "#00CED1",
     description:
@@ -288,48 +360,6 @@ export const games: Game[] = [
       //   source: "/images/games/GAME_NAME/Screenshot_4.png",
       //   type: MediaType.Image,
       // },
-    ],
-  },
-
-  {
-    name: "Forgotten Depths",
-    description:
-      "A survival game set in the tunnels beneath Las Vegas, where you play as a homeless person scavenging for resources and managing health. Face nightly threats like hostile encounters, cave-ins, and harsh conditions. ",
-    genres: ["First Person", "Survival Horror"],
-    platforms:
-      "3D Environment Design, Modular Inventory System using Unity Interfaces and Inheritance",
-    engine: GameEngine.Unity,
-    links: [
-      {
-        source: LinkImageSource.Github,
-        url: "https://github.com/XavierTann/ForgottenDepths",
-      },
-      // {
-      //   source: LinkImageSource.ItchIo,
-      //   url: "https://YOUR_ITCH.itch.io/GAME_NAME",
-      // },
-    ],
-    media: [
-      {
-        source: "/images/games/Unforgotten_Depths/Screenshot_1.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "https://www.youtube.com/embed/4-A-AjeJbXY",
-        type: MediaType.YouTube,
-      },
-      {
-        source: "/images/games/Unforgotten_Depths/Screenshot_2.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/Unforgotten_Depths/Screenshot_3.png",
-        type: MediaType.Image,
-      },
-      {
-        source: "/images/games/Unforgotten_Depths/Screenshot_4.png",
-        type: MediaType.Image,
-      },
     ],
   },
 
