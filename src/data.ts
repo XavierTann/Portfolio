@@ -25,6 +25,31 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
+    name: "Garena Game Programmer Intern",
+    color: "	#339999",
+    description: "",
+    genres: ["Game Prototyping"],
+    platforms:
+      "Rapid prototyping in two week sprints, cross functional collaboration with technical artists, game designers, and senior monetization analysts, feasibility evaluation, and internal playtesting for iteration and polish",
+    engine: GameEngine.Roblox,
+    links: [
+      {
+        source: LinkImageSource.Writeup,
+        url: "https://github.com/XavierTann/LightAndSeek",
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://xaviertann.itch.io/light-and-seek",
+      // },
+    ],
+    media: [
+      {
+        source: "/images/games/Garena/garena_logo.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+  {
     name: "Unity Developer Internship at Persona Theory Games",
     color: "	#339999",
     description: "",
@@ -40,6 +65,10 @@ export const games: Game[] = [
       {
         source: LinkImageSource.ItchIo,
         url: "https://xaviertann.itch.io/light-and-seek",
+      },
+      {
+        source: LinkImageSource.Writeup,
+        url: "https://docs.google.com/document/d/1G-m3SfmTV_plYWaxenzGwhNiv33DEPIJK4BuxMZ6SLI/edit?usp=sharing",
       },
     ],
     media: [
@@ -198,6 +227,37 @@ export const games: Game[] = [
   },
 
   {
+    name: "Death Ball",
+    description:
+      "Competitive 1v1 dodgeball arena inspired by ability-based dueling games, ",
+    genres: ["Multiplayer", "Arena"],
+    platforms:
+      "Roblox Studio, Rojo, Github, React Lua, UI Labs",
+    engine: GameEngine.Roblox,
+    links: [
+      {
+        source: LinkImageSource.Github,
+        url: "https://github.com/XavierTann/DeathBall",
+      },
+      {
+        source: LinkImageSource.ItchIo,
+        url: "https://www.roblox.com/games/135961654284811/DeathBall",
+      },
+       {
+        source: LinkImageSource.Writeup,
+        url: "https://docs.google.com/document/d/1rN60bmoa5ceKO4JgtBW6CpasyRiLdscddRZmSEdRdp0/edit?usp=sharing",
+      },
+      
+    ],
+    media: [
+      {
+        source: "/images/games/Death_Ball/logo.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+
+  {
     name: "Techmania (Arcade Edition)",
     color: "#FF69B4",
     description:
@@ -285,6 +345,8 @@ export const games: Game[] = [
       },
     ],
   },
+
+  
 
   {
     name: "NeoArcade VR",

@@ -1,6 +1,7 @@
 export enum LinkImageSource {
   Github = "/images/logos/github.png",
   ItchIo = "/images/logos/itch.io.png",
+  Writeup = "/images/logos/writeup.png",
 }
 
 export enum Platform {
@@ -14,6 +15,7 @@ export enum Platform {
 export enum GameEngine {
   Unity = "Unity",
   Unreal = "Unreal",
+  Roblox = "RobloxStudios"
 }
 
 export enum MediaType {
