@@ -51,6 +51,6 @@ export interface Game {
   source?: { name: string; url: string };
   links: { source: LinkImageSource; url: string }[];
   media: MediaItem[];
-  platforms: string;
+  skillsLearnt: string;
   engine: GameEngine;
 }

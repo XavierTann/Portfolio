@@ -25,11 +25,227 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
+    name: "Dungeon Master",
+    color: "	#339999",
+    description: "Asymmetrical horror game where survivors must outmaneuver a dungeon master who can manipulate the environment.",
+    genres: ["Asymmetrical", "Horror"],
+    skillsLearnt:
+      "Unity Mirror Networking",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Writeup,
+        url: "https://github.com/XavierTann/DungeonMaster",
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://xaviertann.itch.io/light-and-seek",
+      // },
+    ],
+    media: [
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20153443.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20153503.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20154655.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20154736.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20170836.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20170843.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171048.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171055.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171134.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171146.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171210.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171242.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171254.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171312.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Dungeon_Master/Screenshot%202026-07-17%20171326.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "https://www.youtube.com/embed/T4eG7adLWU0",
+        type: MediaType.YouTube,
+      },
+    ],
+  },
+  {
+    name: "Cat Burglars",
+    color: "	#339999",
+    description: "Co-op first-person stealth/horror museum heist game where players are cats sneaking into a museum at night to steal specific artifacts.",
+    genres: ["Co-op", "Stealth", "Horror"],
+    skillsLearnt:
+      "Unity Mirror Networking",
+    engine: GameEngine.Unity,
+    links: [
+      {
+        source: LinkImageSource.Writeup,
+        url: "https://github.com/XavierTann/CatBurglars",
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://xaviertann.itch.io/light-and-seek",
+      // },
+    ],
+    media: [
+      {
+        source: "/images/games/Cat_Burglars/Screenshot%202026-07-17%20163114.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Cat_Burglars/Screenshot%202026-07-17%20163137.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Cat_Burglars/Screenshot%202026-07-17%20163246.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Cat_Burglars/Screenshot%202026-07-17%20163325.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Cat_Burglars/Screenshot%202026-07-17%20163500.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Cat_Burglars/Screenshot%202026-07-17%20163516.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "https://www.youtube.com/embed/KQOcNJeVqck",
+        type: MediaType.YouTube,
+      },
+    ],
+  },
+  {
+    name: "Fragged",
+    color: "	#339999",
+    description: "Top down competitive shooter in a sci fi setting",
+    genres: ["Top-Down Shooter", "Competitive", "Sci fi"],
+    skillsLearnt:
+      "Roblox Networking, Networking techniques like network interpolation, first time user experience",
+    engine: GameEngine.Roblox,
+    links: [
+      {
+        source: LinkImageSource.Writeup,
+        url: "https://github.com/XavierTann/Fragged",
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://xaviertann.itch.io/light-and-seek",
+      // },
+    ],
+    media: [
+      {
+        source: "/images/games/Fragged/Screenshot%202026-07-17%20161952.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Fragged/Screenshot%202026-07-17%20162008.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Fragged/Screenshot%202026-07-17%20162029.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "https://www.youtube.com/embed/u0YPMgNTjh4",
+        type: MediaType.YouTube,
+      },
+    ],
+  },
+  {
+    name: "Gun Fishing",
+    color: "	#339999",
+    description: "A fast-paced arcade shooter where players blast fish leaping out of a pond to rack up points in a playful, reflex-driven challenge.",
+    genres: ["Arcade", "Shooter", "Casual"],
+    skillsLearnt:
+      "Roblox Networking, Game analytics and funnels, Economy and Game Balancing",
+    engine: GameEngine.Roblox,
+    links: [
+      {
+        source: LinkImageSource.Writeup,
+        url: "https://github.com/XavierTann/Gunfishing2",
+      },
+      // {
+      //   source: LinkImageSource.ItchIo,
+      //   url: "https://xaviertann.itch.io/light-and-seek",
+      // },
+    ],
+    media: [
+      {
+        source: "/images/games/Gun_Fishing/2026-05-29_FeedTheBeast_Thumbnail1%20(1).png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Gun_Fishing/Screenshot%202026-07-17%20164935.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Gun_Fishing/Screenshot%202026-07-17%20164949.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Gun_Fishing/Screenshot%202026-07-17%20165005.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Gun_Fishing/Screenshot%202026-07-17%20165019.png",
+        type: MediaType.Image,
+      },
+      {
+        source: "/images/games/Gun_Fishing/Screenshot%202026-07-17%20165037.png",
+        type: MediaType.Image,
+      },
+    ],
+  },
+  {
     name: "Garena Game Programmer Intern",
     color: "	#339999",
     description: "",
     genres: ["Game Prototyping"],
-    platforms:
+    skillsLearnt:
       "Rapid prototyping in two week sprints, cross functional collaboration with technical artists, game designers, and senior monetization analysts, feasibility evaluation, and internal playtesting for iteration and polish",
     engine: GameEngine.Roblox,
     links: [
@@ -54,7 +270,7 @@ export const games: Game[] = [
     color: "	#339999",
     description: "",
     genres: ["Roguelite"],
-    platforms:
+    skillsLearnt:
       "Enemy AI design, object detection and avoidance algorithms, and development of debugging tools for game designers",
     engine: GameEngine.Unity,
     links: [
@@ -84,7 +300,7 @@ export const games: Game[] = [
     description:
       "A 2D puzzle game where players transform into their shadow to solve intricate, light-based puzzles. Developed for a game jam with a focus on level design, shadow mechanics, and a dark fantasy aesthetic.",
     genres: ["Puzzle", "2D Platformer"],
-    platforms:
+    skillsLearnt:
       "Trailer Design, Level Design, Art direction and Animation, Playtesting and Iterative design, Collaboration via Git.",
     engine: GameEngine.Unity,
     links: [
@@ -132,7 +348,7 @@ export const games: Game[] = [
     description:
       "A 2D side-scrolling puzzle platformer where players summon illusions by rewinding time, allowing them to interact with echoes of their past actions. Features a sleek sci-fi aesthetic and collaborative development using Git.",
     genres: ["Puzzle Platformer", "Sci-Fi"],
-    platforms:
+    skillsLearnt:
       "Git Collaboration, 2D Environment and Character Art, Design Documentation, Playtesting & Iteration",
     engine: GameEngine.Unity,
     links: [
@@ -180,7 +396,7 @@ export const games: Game[] = [
     description:
       "A cooperative cooking simulation game where players must collaborate in fast-paced, chaotic kitchens to prepare and serve meals.",
     genres: ["Simulation", "Co-op", "Casual"],
-    platforms:
+    skillsLearnt:
       "UI/UX Design, Unity Basics like the Prefab and ScriptableObjects System",
     engine: GameEngine.Unity,
     links: [
@@ -231,7 +447,7 @@ export const games: Game[] = [
     description:
       "Competitive 1v1 dodgeball arena inspired by ability-based dueling games, ",
     genres: ["Multiplayer", "Arena"],
-    platforms:
+    skillsLearnt:
       "Roblox Studio, Rojo, Github, React Lua, UI Labs",
     engine: GameEngine.Roblox,
     links: [
@@ -243,11 +459,11 @@ export const games: Game[] = [
         source: LinkImageSource.ItchIo,
         url: "https://www.roblox.com/games/135961654284811/DeathBall",
       },
-       {
+      {
         source: LinkImageSource.Writeup,
         url: "https://docs.google.com/document/d/1rN60bmoa5ceKO4JgtBW6CpasyRiLdscddRZmSEdRdp0/edit?usp=sharing",
       },
-      
+
     ],
     media: [
       {
@@ -263,7 +479,7 @@ export const games: Game[] = [
     description:
       "An arcade-style remake of the open-source rhythm game Techmania. Streamlined the UI for quick access, removing extra pages and taking players straight to gameplay with one button. Integrated MQTT in Unity to connect with an IoT controller, and worked with Lua and XML for customization and scripting.",
     genres: ["Rhythm", "Arcade", "Open Source"],
-    platforms: "Unity, MQTT, Lua, XML, Unity Visual Trees",
+    skillsLearnt: "Unity, MQTT, Lua, XML, Unity Visual Trees",
     engine: GameEngine.Unity,
     links: [
       {
@@ -304,7 +520,7 @@ export const games: Game[] = [
     description:
       "A survival game set in the tunnels beneath Las Vegas, where you play as a homeless person scavenging for resources and managing health. Face nightly threats like hostile encounters, cave-ins, and harsh conditions. ",
     genres: ["First Person", "Survival Horror"],
-    platforms:
+    skillsLearnt:
       "Inventory UI Design, Different Inventory Systems like drag and drop and click only, implemented features like Item Stacking and Sorting",
     engine: GameEngine.Unity,
     links: [
@@ -346,7 +562,7 @@ export const games: Game[] = [
     ],
   },
 
-  
+
 
   {
     name: "NeoArcade VR",
@@ -354,7 +570,7 @@ export const games: Game[] = [
     description:
       "A VR arcade prototype built for VirtuLabs to showcase an immersive, futuristic entertainment space in Japantown, SF. Features include dynamic cherry blossom walls, multiplayer console stations, a touchscreen photo booth, and vending machines. Developed with Unity HDRP, it explores lighting workflows, 3D rigging and animation, and AI-generated assets.",
     genres: ["VR", "Simulation", "Futuristic"],
-    platforms:
+    skillsLearnt:
       "Unity Real Time and Baked Lighting, 3D Environment design, AI asset creation, 3D Animation",
     engine: GameEngine.Unity,
     links: [
@@ -388,7 +604,7 @@ export const games: Game[] = [
     description:
       "A roguelike tower defense game set in a desert environment where players survive increasingly difficult runs across hostile terrain, gaining power after each run. Features intelligent enemy movement using Dijkstra's algorithm. Current game I am working on.",
     genres: ["Roguelike", "Tower Defense"],
-    platforms:
+    skillsLearnt:
       "Pathfinding Algorithms, Procedural Generation, System Design, Balancing, Isometric Tilemaps",
     engine: GameEngine.Unity,
     links: [
@@ -430,7 +646,7 @@ export const games: Game[] = [
     description:
       "My first game! A top down RPG where players have to navigate and fight through hordes of enemies while levelling up and gaining new skills. Unfortunately I did not know how to use source control, and lost all the code. The only picture I have of the game  is this.",
     genres: ["Top Down RPG"],
-    platforms: "UI/UX Design, 2D Art, Unity Basics",
+    skillsLearnt: "UI/UX Design, 2D Art, Unity Basics",
     engine: GameEngine.Unity,
     links: [
       {
